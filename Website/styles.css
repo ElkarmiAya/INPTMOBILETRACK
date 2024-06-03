@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #68D2E8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    width: 600px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 1, 0.9);
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+}
+
+.header {
+    background-color:#03AED2;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.back-button {
+    background-color: #ffffff;
+    color: #03AED2;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.chat {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 10px;
+    
+    background-image:url(logo4.PNG);
+
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+.message-item-sent {
+    margin-bottom: 10px;
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    
+    clear: both;
+    background-color: #ACD793;
+    color: white;
+    float: right;
+}
+.message-item-received {
+    margin-bottom: 10px;
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    
+    clear: both;
+    background-color: #68D2E8;
+    color: white;
+    float: left;
+}
+
+.message-item .timestamp {
+    font-size: 0.8em;
+    color: rgba(254, 254, 254, 0.7);
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+.message-form {
+    display: flex;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.message-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #d8e3b7f5;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.send-button {
+    padding: 10px;
+    background-color: #FDDE55;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.mes_o{
+   
+    font-weight: bold;
+    font-size: 18px; 
+    color: #03AED2;  
+}
+.timestamp{
+    color:#e8f9f2;
+    font-style: italic;
+    font-size: 12px;
+}
+.message-text{
+  font-size:18px ;
+  
+}
